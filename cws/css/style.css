@@ -1,0 +1,25 @@
+.logo {
+    margin-left: 40px;
+    font-weight: 100;
+}
+
+.heading {
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        margin-left: 0px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+}
+
+#about {
+    font-weight: 100;
+}

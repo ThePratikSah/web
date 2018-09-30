@@ -1,0 +1,12 @@
+body{
+    background: grey;
+}
+.navbar {
+    background: #1fb9ce;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+

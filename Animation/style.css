@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(10, 110, 150);
+    animation-name: float;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes float{
+    0%{
+        margin-left: 0px; 
+        margin-top: 0px;
+    }
+    25%{
+        margin-top: 0px;
+        margin-left: 600px;
+    }
+    50%{
+        margin-left: 600px;
+        margin-top: 600px;
+    }
+    75%{
+        margin-left: 0px;
+        margin-top: 600px;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
